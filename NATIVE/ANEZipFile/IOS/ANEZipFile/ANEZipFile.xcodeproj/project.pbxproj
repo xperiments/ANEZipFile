@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE0DCF0C16C90DA30012F3D3 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0DCF0A16C90DA30012F3D3 /* SSZipArchive.h */; };
+		CE0DCF0D16C90DA30012F3D3 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0DCF0B16C90DA30012F3D3 /* SSZipArchive.m */; };
+		CE2BD80F16CFB98B00EE6F26 /* ANEZipFileContextData.h in Headers */ = {isa = PBXBuildFile; fileRef = CE2BD80D16CFB98B00EE6F26 /* ANEZipFileContextData.h */; };
+		CE2BD81016CFB98B00EE6F26 /* ANEZipFileContextData.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2BD80E16CFB98B00EE6F26 /* ANEZipFileContextData.m */; };
+		CE3CA49515587E4800F63458 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3CA49415587E4800F63458 /* Foundation.framework */; };
+		CE3CA49B15587E4800F63458 /* ANEZipFile.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3CA49A15587E4800F63458 /* ANEZipFile.m */; };
+		CE4653DA16CAE75E00B286DC /* SSZipArchiveReadStream.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4653D816CAE75E00B286DC /* SSZipArchiveReadStream.h */; };
+		CE4653DB16CAE75E00B286DC /* SSZipArchiveReadStream.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4653D916CAE75E00B286DC /* SSZipArchiveReadStream.m */; };
+		CE896A7F16CEF4C000AE4690 /* ANEZipUtilContextData.h in Headers */ = {isa = PBXBuildFile; fileRef = CE896A7D16CEF4C000AE4690 /* ANEZipUtilContextData.h */; };
+		CE896A8016CEF4C000AE4690 /* ANEZipUtilContextData.m in Sources */ = {isa = PBXBuildFile; fileRef = CE896A7E16CEF4C000AE4690 /* ANEZipUtilContextData.m */; };
+		CE9A607516CCF73F0079B884 /* FRETypeUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CE9A607316CCF73F0079B884 /* FRETypeUtils.h */; };
+		CE9A607616CCF73F0079B884 /* FRETypeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9A607416CCF73F0079B884 /* FRETypeUtils.m */; };
+		CEDF6C7716C7C27500847CFD /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = CEDF6C6B16C7C27500847CFD /* crypt.h */; };
+		CEDF6C7816C7C27500847CFD /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = CEDF6C6C16C7C27500847CFD /* ioapi.c */; };
+		CEDF6C7916C7C27500847CFD /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = CEDF6C6D16C7C27500847CFD /* ioapi.h */; };
+		CEDF6C7A16C7C27500847CFD /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = CEDF6C6E16C7C27500847CFD /* mztools.c */; };
+		CEDF6C7B16C7C27500847CFD /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = CEDF6C6F16C7C27500847CFD /* mztools.h */; };
+		CEDF6C7C16C7C27500847CFD /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = CEDF6C7016C7C27500847CFD /* unzip.c */; };
+		CEDF6C7D16C7C27500847CFD /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = CEDF6C7116C7C27500847CFD /* unzip.h */; };
+		CEDF6C7E16C7C27500847CFD /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = CEDF6C7216C7C27500847CFD /* zip.c */; };
+		CEDF6C7F16C7C27500847CFD /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = CEDF6C7316C7C27500847CFD /* zip.h */; };
+		CEDF6C8816C7C86000847CFD /* ANEZipFileDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = CEDF6C8616C7C86000847CFD /* ANEZipFileDelegate.h */; };
+		CEDF6C8916C7C86000847CFD /* ANEZipFileDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF6C8716C7C86000847CFD /* ANEZipFileDelegate.m */; };
+		CEE8BDC8155AF6D500A18A74 /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE8BDC6155AF6D500A18A74 /* FlashRuntimeExtensions.h */; };
+		CEE8BDC9155AF6D500A18A74 /* ANEZipFileEventMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE8BDC7155AF6D500A18A74 /* ANEZipFileEventMessages.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE0DCF0A16C90DA30012F3D3 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		CE0DCF0B16C90DA30012F3D3 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		CE2BD80D16CFB98B00EE6F26 /* ANEZipFileContextData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEZipFileContextData.h; sourceTree = "<group>"; };
+		CE2BD80E16CFB98B00EE6F26 /* ANEZipFileContextData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEZipFileContextData.m; sourceTree = "<group>"; };
+		CE3CA49115587E4800F63458 /* libANEZipFile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libANEZipFile.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3CA49415587E4800F63458 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE3CA49815587E4800F63458 /* ANEZipFile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ANEZipFile-Prefix.pch"; sourceTree = "<group>"; };
+		CE3CA49A15587E4800F63458 /* ANEZipFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANEZipFile.m; sourceTree = "<group>"; };
+		CE4653D816CAE75E00B286DC /* SSZipArchiveReadStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchiveReadStream.h; sourceTree = SOURCE_ROOT; };
+		CE4653D916CAE75E00B286DC /* SSZipArchiveReadStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchiveReadStream.m; sourceTree = SOURCE_ROOT; };
+		CE896A7716CE7AB100AE4690 /* SSZipArchive.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SSZipArchive.podspec; sourceTree = "<group>"; };
+		CE896A7816CE7BA100AE4690 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CE896A7D16CEF4C000AE4690 /* ANEZipUtilContextData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEZipUtilContextData.h; sourceTree = "<group>"; };
+		CE896A7E16CEF4C000AE4690 /* ANEZipUtilContextData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEZipUtilContextData.m; sourceTree = "<group>"; };
+		CE9A607316CCF73F0079B884 /* FRETypeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRETypeUtils.h; sourceTree = "<group>"; };
+		CE9A607416CCF73F0079B884 /* FRETypeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRETypeUtils.m; sourceTree = "<group>"; };
+		CEDF6C6B16C7C27500847CFD /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		CEDF6C6C16C7C27500847CFD /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		CEDF6C6D16C7C27500847CFD /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		CEDF6C6E16C7C27500847CFD /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		CEDF6C6F16C7C27500847CFD /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		CEDF6C7016C7C27500847CFD /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		CEDF6C7116C7C27500847CFD /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		CEDF6C7216C7C27500847CFD /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		CEDF6C7316C7C27500847CFD /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		CEDF6C8616C7C86000847CFD /* ANEZipFileDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEZipFileDelegate.h; sourceTree = "<group>"; };
+		CEDF6C8716C7C86000847CFD /* ANEZipFileDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEZipFileDelegate.m; sourceTree = "<group>"; };
+		CEE8BDC6155AF6D500A18A74 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		CEE8BDC7155AF6D500A18A74 /* ANEZipFileEventMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEZipFileEventMessages.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE3CA48E15587E4800F63458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3CA49515587E4800F63458 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE3CA48615587E4800F63458 = {
+			isa = PBXGroup;
+			children = (
+				CEDF6C6916C7C25900847CFD /* SSZipArchive */,
+				CE3CA49615587E4800F63458 /* ANEZipFile */,
+				CE3CA49315587E4800F63458 /* Frameworks */,
+				CE3CA49215587E4800F63458 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE3CA49215587E4800F63458 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CA49115587E4800F63458 /* libANEZipFile.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE3CA49315587E4800F63458 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CA49415587E4800F63458 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE3CA49615587E4800F63458 /* ANEZipFile */ = {
+			isa = PBXGroup;
+			children = (
+				CE9A607316CCF73F0079B884 /* FRETypeUtils.h */,
+				CE9A607416CCF73F0079B884 /* FRETypeUtils.m */,
+				CEE8BDC6155AF6D500A18A74 /* FlashRuntimeExtensions.h */,
+				CEE8BDC7155AF6D500A18A74 /* ANEZipFileEventMessages.h */,
+				CE3CA49A15587E4800F63458 /* ANEZipFile.m */,
+				CE3CA49715587E4800F63458 /* Supporting Files */,
+				CEDF6C8616C7C86000847CFD /* ANEZipFileDelegate.h */,
+				CEDF6C8716C7C86000847CFD /* ANEZipFileDelegate.m */,
+				CE896A7D16CEF4C000AE4690 /* ANEZipUtilContextData.h */,
+				CE2BD80D16CFB98B00EE6F26 /* ANEZipFileContextData.h */,
+				CE2BD80E16CFB98B00EE6F26 /* ANEZipFileContextData.m */,
+				CE896A7E16CEF4C000AE4690 /* ANEZipUtilContextData.m */,
+			);
+			path = ANEZipFile;
+			sourceTree = "<group>";
+		};
+		CE3CA49715587E4800F63458 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CA49815587E4800F63458 /* ANEZipFile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEDF6C6916C7C25900847CFD /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				CE4653D816CAE75E00B286DC /* SSZipArchiveReadStream.h */,
+				CE4653D916CAE75E00B286DC /* SSZipArchiveReadStream.m */,
+				CE896A7816CE7BA100AE4690 /* LICENSE */,
+				CE896A7716CE7AB100AE4690 /* SSZipArchive.podspec */,
+				CE0DCF0A16C90DA30012F3D3 /* SSZipArchive.h */,
+				CE0DCF0B16C90DA30012F3D3 /* SSZipArchive.m */,
+				CEDF6C6A16C7C27500847CFD /* minizip */,
+			);
+			name = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		CEDF6C6A16C7C27500847CFD /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF6C6B16C7C27500847CFD /* crypt.h */,
+				CEDF6C6C16C7C27500847CFD /* ioapi.c */,
+				CEDF6C6D16C7C27500847CFD /* ioapi.h */,
+				CEDF6C6E16C7C27500847CFD /* mztools.c */,
+				CEDF6C6F16C7C27500847CFD /* mztools.h */,
+				CEDF6C7016C7C27500847CFD /* unzip.c */,
+				CEDF6C7116C7C27500847CFD /* unzip.h */,
+				CEDF6C7216C7C27500847CFD /* zip.c */,
+				CEDF6C7316C7C27500847CFD /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CE3CA48F15587E4800F63458 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8BDC8155AF6D500A18A74 /* FlashRuntimeExtensions.h in Headers */,
+				CEE8BDC9155AF6D500A18A74 /* ANEZipFileEventMessages.h in Headers */,
+				CEDF6C7716C7C27500847CFD /* crypt.h in Headers */,
+				CEDF6C7916C7C27500847CFD /* ioapi.h in Headers */,
+				CEDF6C7B16C7C27500847CFD /* mztools.h in Headers */,
+				CEDF6C7D16C7C27500847CFD /* unzip.h in Headers */,
+				CEDF6C7F16C7C27500847CFD /* zip.h in Headers */,
+				CEDF6C8816C7C86000847CFD /* ANEZipFileDelegate.h in Headers */,
+				CE0DCF0C16C90DA30012F3D3 /* SSZipArchive.h in Headers */,
+				CE4653DA16CAE75E00B286DC /* SSZipArchiveReadStream.h in Headers */,
+				CE9A607516CCF73F0079B884 /* FRETypeUtils.h in Headers */,
+				CE896A7F16CEF4C000AE4690 /* ANEZipUtilContextData.h in Headers */,
+				CE2BD80F16CFB98B00EE6F26 /* ANEZipFileContextData.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CE3CA49015587E4800F63458 /* ANEZipFile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3CA49E15587E4800F63458 /* Build configuration list for PBXNativeTarget "ANEZipFile" */;
+			buildPhases = (
+				CE3CA48D15587E4800F63458 /* Sources */,
+				CE3CA48E15587E4800F63458 /* Frameworks */,
+				CE3CA48F15587E4800F63458 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ANEZipFile;
+			productName = ANEZipFile;
+			productReference = CE3CA49115587E4800F63458 /* libANEZipFile.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3CA48815587E4800F63458 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = xperiments;
+			};
+			buildConfigurationList = CE3CA48B15587E4800F63458 /* Build configuration list for PBXProject "ANEZipFile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE3CA48615587E4800F63458;
+			productRefGroup = CE3CA49215587E4800F63458 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE3CA49015587E4800F63458 /* ANEZipFile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE3CA48D15587E4800F63458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3CA49B15587E4800F63458 /* ANEZipFile.m in Sources */,
+				CEDF6C7816C7C27500847CFD /* ioapi.c in Sources */,
+				CEDF6C7A16C7C27500847CFD /* mztools.c in Sources */,
+				CEDF6C7C16C7C27500847CFD /* unzip.c in Sources */,
+				CEDF6C7E16C7C27500847CFD /* zip.c in Sources */,
+				CEDF6C8916C7C86000847CFD /* ANEZipFileDelegate.m in Sources */,
+				CE0DCF0D16C90DA30012F3D3 /* SSZipArchive.m in Sources */,
+				CE4653DB16CAE75E00B286DC /* SSZipArchiveReadStream.m in Sources */,
+				CE9A607616CCF73F0079B884 /* FRETypeUtils.m in Sources */,
+				CE896A8016CEF4C000AE4690 /* ANEZipUtilContextData.m in Sources */,
+				CE2BD81016CFB98B00EE6F26 /* ANEZipFileContextData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE3CA49C15587E4800F63458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE3CA49D15587E4800F63458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE3CA49F15587E4800F63458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ANEZipFile.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ANEZipFile/ANEZipFile-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CE3CA4A015587E4800F63458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ANEZipFile.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ANEZipFile/ANEZipFile-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE3CA48B15587E4800F63458 /* Build configuration list for PBXProject "ANEZipFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3CA49C15587E4800F63458 /* Debug */,
+				CE3CA49D15587E4800F63458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3CA49E15587E4800F63458 /* Build configuration list for PBXNativeTarget "ANEZipFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3CA49F15587E4800F63458 /* Debug */,
+				CE3CA4A015587E4800F63458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE3CA48815587E4800F63458 /* Project object */;
+}
